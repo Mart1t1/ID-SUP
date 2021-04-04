@@ -1,10 +1,11 @@
 import'package:flutter/material.dart';
+import 'package:idsup/Views/school/schoolList.dart';
 import '../../Models/Modeldata.dart';
 import '../../Models/schools.dart';
 
 class schoolRow extends StatelessWidget {
 
-  final School schoolinRow;
+  final  schoolinRow;
 
   const schoolRow({Key key, this.schoolinRow}) : super(key: key);
 

@@ -8,18 +8,13 @@ import 'Views/school/schoolRow.dart';
 
 
 void main() {
-  if(Schools.fromJson(ModelData().loadFromAsset()) == null) {
-    print("null");
-  }
-  runApp(MyApp(schools: Schools.fromJson(ModelData().loadFromAsset()),)
+  runApp(MyApp()
   );
 }
 
 class MyApp extends StatelessWidget {
 
-  final Schools schools;
-
-  const MyApp({Key key, this.schools}) : super(key: key);
+  final Future<dynamic> schools = ModelData().readJson();
 
   @override
 
@@ -32,7 +27,7 @@ class MyApp extends StatelessWidget {
           title: Text('ID Sup'),
         ),
         body: Center(
-          child: Text('dfs'),//schoolRow(schoolinRow: schools.schools[0]),
+          child: schoolRow(schoolinRow: schools[0]),
         ),
       ),
     );

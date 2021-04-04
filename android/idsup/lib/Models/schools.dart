@@ -1,34 +1,3 @@
-/// schools : [{"id":0,"ranking":0,"name":"Télécom Paris","category":"inge","intramuros":0,"coordinates":{"longitude":48.716187071585495,"latitude":2.1993622960556736},"womanprop":19,"imagepath":"onverraplustard","website":"https://www.telecom-paris.fr/","fees":2650,"socials":{"instagram":"https://www.instagram.com/telecom_paris/?hl=fr","twitter":"https://twitter.com/TelecomParis_?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/TelecomParis/"},"resume":{"approxAddress":"Palaiseau","since":1878,"numberOfStudents":1360,"numberOfForeigners":-1,"history":"In 1845, Alphonse Foy, director of telegraphic lines, proposed a school specializing in telegraphy for Polytechnicians. However, his proposition was rejected. The school was founded on 12 July 1878 as the École professionnelle supérieure des postes et télégraphes (EPSPT). In 1912, the school's name was changed to École supérieure des postes et télégraphes (ESPT)","majors":["computer science","philosophy"],"mailAdress":"contact@telecom-paris.fr","phone":33175319201}},{"id":1,"ranking":0,"name":"Ensta Paris","category":"inge","intramuros":0,"coordinates":{"longitude":48.71078389272253,"latitude":2.217461325064383},"womanprop":27,"imagepath":"onverraplustard","website":"https://www.ensta-paris.fr/","fees":2650,"socials":{"instagram":"https://www.instagram.com/enstaparis/?hl=fr","twitter":"https://twitter.com/enstaparis?lang=fr","facebook":"https://www.facebook.com/ENSTA.Paris/"},"resume":{"approxAddress":"Palaiseau","since":1741,"numberOfStudents":897,"numberOfForeigners":-1,"history":"The ENSTA Paris, formerly known as the École nationale supérieure de techniques avancées (English: Superior National School of Advanced Techniques) is a prestigious French graduate school of engineering (école d'ingénieurs). Founded in 1741, it is the oldest grande école in France. It is located in Palaiseau in the south of Paris, on the Paris-Saclay campus, and is a constituent faculty of the Polytechnic Institute of Paris. Every year some 180 engineers graduate from the school.","majors":["computer science","philosophy"],"mailAdress":"sylvain.ferrari@ensta-paris.fr","phone":33181871740}},{"id":2,"ranking":0,"name":"Ensae - Paris","category":"inge","intramuros":0,"coordinates":{"longitude":48.711192068870055,"latitude":2.207574767392678},"womanprop":27,"imagepath":"onverraplustard","website":"https://www.ensae.fr/","fees":1850,"socials":{"instagram":"https://www.instagram.com/explore/locations/368800590238617/france/palaiseau-france/ensae-paris/?hl=fr","twitter":"https://twitter.com/ENSAEparis?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/ENSAE.IPPARIS/"},"resume":{"approxAddress":"Palaiseau","since":1942,"numberOfStudents":581,"numberOfForeigners":-1,"history":"Originally, the school was the brainchild of Henri-Louis Duhamel du Monceau, inspector general of the Navy. He had identified the need to give the Navy's master carpenters a theoretical education, particularly in mathematics and physics, which were making quick progress, so that they would have a clearer understanding of their trade.","majors":["computer science","philosophy"],"mailAdress":"info@ensae.fr","phone":33170266700}},{"id":3,"ranking":0,"name":"Télécom SudParis","category":"inge","intramuros":0,"coordinates":{"longitude":48.625169778079965,"latitude":2.4433700800794025},"womanprop":22,"imagepath":"onverraplustard","website":"https://www.telecom-sudparis.eu/","fees":2650,"socials":{"instagram":"https://www.instagram.com/telecom_sudparis/?hl=fr","twitter":"https://twitter.com/TelecomSudParis?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/TelecomSudParis"},"resume":{"approxAddress":"Courcouronnes","since":1979,"numberOfStudents":1000,"numberOfForeigners":-1,"history":"Founded in 2000 by Télécom SudParis and Institut Mines-Télécom Business School, the Télécom & Management SudParis Entrepreneurs incubator is also common to ENSIIE. Its goal is to host and support project leaders for the creation of innovative IT companies.","majors":["computer science","philosophy"],"mailAdress":"international@telecom-sudparis.eu ","phone":3360764040}},{"id":4,"ranking":0,"name":"Efrei Paris","category":"inge","intramuros":0,"coordinates":{"longitude":48.78877123047309,"latitude":2.3640523692466413},"womanprop":19,"imagepath":"onverraplustard","website":"https://www.efrei.fr/","fees":8880,"socials":{"instagram":"https://www.instagram.com/efrei_paris/?hl=fr","twitter":"https://twitter.com/Efrei_Paris?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/Efrei/"},"resume":{"approxAddress":"Villejuif","since":1986,"numberOfStudents":2300,"numberOfForeigners":-1,"history":"The EFREI (École d'ingénieur généraliste en informatique et technologies du numérique) (Engineering School of Information and Digital Technologies) is a French private engineering school located in Villejuif, Île-de-France, at the south of Paris. Its courses, specializing in computer science and management, are taught with support from the state. ","majors":["computer science","philosophy"],"mailAdress":"informations@efrei.fr","phone":33146776467}},{"id":5,"ranking":0,"name":"ISEP","category":"inge","intramuros":1,"coordinates":{"longitude":48.845518232807926,"latitude":2.32807942692051},"womanprop":20,"imagepath":"onverraplustard","website":"https://www.isep.fr/","fees":8724,"socials":{"instagram":"https://www.instagram.com/isepparis/?hl=fr","twitter":"https://twitter.com/ISEP?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/ISEP.Paris/"},"resume":{"approxAddress":"Paris","since":1955,"numberOfStudents":1500,"numberOfForeigners":-1,"history":"ISEP was created by the Institut Catholique de Paris in 1955, where Edouard Branly, then Professor of Physics, discovered radioconductors at the origin of wireless transmission (T.S.F). Since its inception, ISEP's educational project has focused on high-level scientific and technical training that places a high priority on human training, which is essential for future responsible executives.","majors":["computer science","philosophy"],"mailAdress":"info@isep.fr","phone":33149545200}},{"id":6,"ranking":0,"name":"ESILV","category":"inge","intramuros":0,"coordinates":{"longitude":48.89631386769784,"latitude":2.2358472250713337},"womanprop":21,"imagepath":"onverraplustard","website":"https://www.esilv.fr/","fees":8500,"socials":{"instagram":"https://www.instagram.com/esilv_paris/?hl=fr","twitter":"https://twitter.com/ESILVparis?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/ESILVparis/"},"resume":{"approxAddress":"Courbevoie","since":1995,"numberOfStudents":2700,"numberOfForeigners":-1,"history":"The Leonard de Vinci Engineering School (ESILV) is a five-year engineering school in Paris, France. It was placed 10th among French engineering schools Post-bac in the 2010 Le Point rankings. It is fully accredited to award the title of ingénieur by the French Commission of Engineering Titles. ESILV is part of the Pôle universitaire Léonard-de-Vinci. The director of the school is Professor Michel Bernadou.","majors":["computer science","philosophy"],"mailAdress":"contact@devinci.fr","phone":141167000}},{"id":7,"ranking":0,"name":"ECE","category":"inge","intramuros":1,"coordinates":{"longitude":48.85163451353787,"latitude":2.287221669248997},"womanprop":23,"imagepath":"onverraplustard","website":"https://www.ece.fr/ecole-ingenieur/","fees":9500,"socials":{"instagram":"url","twitter":"https://twitter.com/IngenieursECE?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/ECE.Paris/"},"resume":{"approxAddress":"Paris","since":1919,"numberOfStudents":25000,"numberOfForeigners":-1,"history":"The school was founded in Paris in 1919, under the name of Ecole Centrale de TSF (Télégraphie Sans Fil), in the aftermath of the First World War, under the leadership of a young petty officer, Eugène Poirot.","majors":["computer science","philosophy"],"mailAdress":"","phone":-1}},{"id":8,"ranking":0,"name":"ESIEE Paris","category":"inge","intramuros":0,"coordinates":{"longitude":48.84036538242425,"latitude":2.5838397115768177},"womanprop":22,"imagepath":"onverraplustard","website":"https://www.esiee.fr/","fees":8100,"socials":{"instagram":"https://www.instagram.com/esieeparis/","twitter":"https://twitter.com/ESIEEPARIS?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/esieeparis/"},"resume":{"approxAddress":"Noisy-le-Grand","since":1992,"numberOfStudents":1850,"numberOfForeigners":-1,"history":"ESIEE Paris (French: École Supérieure d'Ingénieurs en Électrotechnique et Électronique) is a Grande Ecole graduate school of engineering located in Marne-la-Vallée. The school was established in 1904 and is part of the ESIEE network of graduate schools. ESIEE Paris offers its students general engineering training with the aim of enabling them to design, produce and oversee complex industrial systems while meeting strict economic constraints and dealing with an international environment. To accomplish this, the school renders advanced scientific and technological training, which is frequently updated to keep pace with changes in the leading edge technologies and supplemented by its association with language, general culture, economics and humanities teaching.","majors":["computer science","philosophy"],"mailAdress":"https://www.esiee.fr/fr/contact-international","phone":33145926500}},{"id":9,"ranking":0,"name":"Cesi École d'ingénieurs","category":"inge","intramuros":0,"coordinates":{"longitude":48.90338092244385,"latitude":2.19296054041507},"womanprop":12,"imagepath":"onverraplustard","website":"https://ecole-ingenieurs.cesi.fr/","fees":7500,"socials":{"instagram":"https://www.instagram.com/campus_cesi/","twitter":"https://twitter.com/CESIingenieurs?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/CESIingenieurs/"},"resume":{"approxAddress":"Nanterre","since":1958,"numberOfStudents":5152,"numberOfForeigners":-1,"history":"The founding project of CESI relates to social and institutional innovation. Over time, CESI has remained anchored in its social values, and its new training courses, with the original values. In 1989, CESI was the first school to offer courses for engineers in apprenticeship.","majors":["computer science","philosophy"],"mailAdress":"https://contact.cesi.fr/par-email/","phone":33144192345}},{"id":10,"ranking":0,"name":"ENSIIE","category":"inge","intramuros":0,"coordinates":{"longitude":48.62696340186135,"latitude":2.432410025061261},"womanprop":17,"imagepath":"onverraplustard","website":"https://www.ensiie.fr/","fees":601,"socials":{"instagram":"https://www.instagram.com/ensiie.fr/?hl=fr","twitter":"https://twitter.com/ENSIIE?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/ENSIIE.91.68/"},"resume":{"approxAddress":"Évry-Courcouronnes","since":1968,"numberOfStudents":-1,"numberOfForeigners":-1,"history":"Created in 1968 within the National Conservatory of Arts and Crafts, the Institute of Business Informatics (IIE) was first established in Paris, in the premises of the CNAM. ... On September 13, 2011, ENSIIE joined the network of associated schools of the Institut Mines-Télécom.","majors":["computer science","philosophy"],"mailAdress":"Vathana.lyvath@ensiie.fr","phone":33169367350}},{"id":11,"ranking":0,"name":"Polytech Sorbonne","category":"inge","intramuros":1,"coordinates":{"longitude":48.84677026816889,"latitude":2.354938284592262},"womanprop":39,"imagepath":"onverraplustard","website":"https://www.polytech.sorbonne-universite.fr/","fees":601,"socials":{"instagram":"https://www.instagram.com/polytechsorbonne/?hl=fr","twitter":"https://twitter.com/PolytechSorbonn?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/PolytechSorbonne/"},"resume":{"approxAddress":"Paris","since":1985,"numberOfStudents":-1,"numberOfForeigners":-1,"history":"The school, born in 2005, is the result of the merger of two UPMC institutes: the Institute for the Training of Engineers in Electronic Techniques in Paris (IFITEP) founded in 1991; the Institute of Science and Technology (IST) founded in 1983.","majors":["computer science","philosophy"],"mailAdress":"https://www.polytech.sorbonne-universite.fr/qui-contacter","phone":33144277313}},{"id":12,"ranking":0,"name":"EPITA","category":"inge","intramuros":0,"coordinates":{"longitude":48.81581797422478,"latitude":2.3628301404117873},"womanprop":11,"imagepath":"onverraplustard","website":"https://www.epita.fr/","fees":10448,"socials":{"instagram":"https://www.instagram.com/epita.national/?hl=fr","twitter":"https://twitter.com/EPITA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/epita/"},"resume":{"approxAddress":"Kremlin Bicetre","since":1984,"numberOfStudents":-1,"numberOfForeigners":-1,"history":"Created in 1984, it is a private higher education institution recognized by the State.It is a member of the Conférence des Grandes Ecoles (CGE), of the Union of Independent Grandes Ecoles (UGEI), of the Conference of Directors of French Engineering Schools (CDEFI) and belongs to the Institute of Technology pole of the IONIS group.","majors":["computer science","philosophy"],"mailAdress":"dayana.patel@epita.fr","phone":330144080046}},{"id":13,"ranking":0,"name":"Ipsa","category":"inge","intramuros":0,"coordinates":{"longitude":48.81464443725002,"latitude":2.393687540411742},"womanprop":18,"imagepath":"onverraplustard","website":"https://www.ipsa.fr/","fees":9030,"socials":{"instagram":"https://www.instagram.com/ipsa.aero/?hl=fr","twitter":"https://twitter.com/IPSA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/ecole.ipsa/"},"resume":{"approxAddress":"Ivry-sur-Seine","since":1961,"numberOfStudents":-1,"numberOfForeigners":-1,"history":"IPSA was created in 1961 in Paris by Michel Cazin, Maurice Pradier and Paul Lefort and was acquired in 1999 by the IONIS5 Group. In 2005, the title issued by the school was registered, after consulting the national commission for professional certification, in the National Directory of Professional Certifications at level I6. The year 2006 saw the institute host the 6th European Congress of the Mars Society aimed at promoting the exploration of the planet Mars and the design of the Martian habitat.","majors":["computer science","philosophy"],"mailAdress":"info@ipsa.fr","phone":330184071515}},{"id":14,"ranking":0,"name":"Polytech Paris-Saclay","category":"inge","intramuros":0,"coordinates":{"longitude":48.70919229361006,"latitude":2.171253555751236},"womanprop":29,"imagepath":"onverraplustard","website":"https://www.polytech.universite-paris-saclay.fr/","fees":601,"socials":{"instagram":"url","twitter":"https://twitter.com/Polytech_Saclay?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/PolytechParisSaclay/"},"resume":{"approxAddress":"Orsay","since":2004,"numberOfStudents":-1,"numberOfForeigners":-1,"history":"The École polytechnique universitaire of the University of Paris-Saclay, also known as Polytech Paris-Saclay (formerly the Institute for the training of engineers of the University of Paris-Sud 11 or IFIPS) is one of the 205 engineering schools French women accredited on September 1, 2019 to issue an engineering diploma. Integrated into the University of Paris-Saclay, located at the Maison de l'Ingénieur (building 620 of the Orsay Scientific Center) on the Orsay campus (at the heart of the University of Paris-Saclay and of CentraleSupélec), it is located in the Paris-Saclay technological cluster.","majors":["computer science","philosophy"],"mailAdress":"contact.polytech@universite-paris-saclay.fr","phone":330169338600}},{"id":15,"ranking":0,"name":"Esme Sudria","category":"inge","intramuros":1,"coordinates":{"longitude":48.84004716727125,"latitude":2.3096067115768197},"womanprop":21,"imagepath":"onverraplustard","website":"https://www.esme.fr/","fees":9980,"socials":{"instagram":"https://www.instagram.com/esme.sudria/?hl=fr","twitter":"https://twitter.com/esmesudria?lang=fr","facebook":"https://www.facebook.com/ESME.Sudria/"},"resume":{"approxAddress":"Paris","since":1905,"numberOfStudents":-1,"numberOfForeigners":-1,"history":"The Special School of Mechanics and Electricity (usual name ESME Sudria), is one of the 205 French engineering schools accredited on September 1, 2019 to award an engineering diploma1. It is a state-recognized private higher education institution that provides training in the fields of electrical engineering, electronics, telecommunications and IT. It is a member of the Conférence des grandes écoles (CGE), the union of independent grandes écoles (UGEI) and belongs to the IONIS group.","majors":["computer science","philosophy"],"mailAdress":"contact@esme.fr","phone":330156206200}},{"id":16,"ranking":0,"name":"ENSEA","category":"inge","intramuros":0,"coordinates":{"longitude":49.03948162684108,"latitude":2.0721781615842896},"womanprop":17,"imagepath":"onverraplustard","website":"https://www.ensea.fr/fr","fees":601,"socials":{"instagram":"https://www.instagram.com/enseacergy/?hl=fr","twitter":"https://twitter.com/ensea1?lang=fr","facebook":"https://www.facebook.com/Ensea-136481359731543/"},"resume":{"approxAddress":"Cergy","since":1952,"numberOfStudents":750,"numberOfForeigners":-1,"history":"The National School of Electronics and its Applications (ENSEA) is one of 205 French engineering schools accredited on September 1, 2019 to award an engineering degree. General practitioner and public, located in Cergy-Pontoise, in Val-d'Oise, she is a member of the Conférence des grandes écoles (CGE), the conference of directors of French engineering schools (CDEFI) and the ComUE University Paris Seine, which brings together several higher education establishments on the Cergy campus such as ESSEC, UCP, EISTI or even SUPMECA. Since its creation in 1952, it has been empowered by the Engineering Titles Commission to award the ENSEA engineering diploma.","majors":["computer science","philosophy"],"mailAdress":"https://www.ensea.fr/en/node/59","phone":33130736666}},{"id":17,"ranking":0,"name":"EIDD","category":"inge","intramuros":1,"coordinates":{"longitude":48.826888906221654,"latitude":2.382716709725266},"womanprop":29,"imagepath":"onverraplustard","website":"https://eidd.u-paris.fr/","fees":601,"socials":{"instagram":"https://www.instagram.com/alumni_eidd/","twitter":"https://twitter.com/eiddparis?lang=fr","facebook":"https://www.facebook.com/AlumniEIDD/"},"resume":{"approxAddress":"Paris","since":2011,"numberOfStudents":-1,"numberOfForeigners":-1,"history":"In 2010, the University of Paris-VII was for the first time authorized by the CTI, for a period of 2 years, to issue engineering degrees in 3 specialties under student status: architecture of physical systems, Computing and materials and nanotechnologies. The school was not created until the following year by a decree of June 6, 2011.","majors":["computer science","philosophy"],"mailAdress":"eidd@univ-paris-diderot.fr","phone":33157276125}},{"id":18,"ranking":0,"name":"ESEO","category":"inge","intramuros":0,"coordinates":{"longitude":48.78318985808898,"latitude":2.2114149980822866},"womanprop":17,"imagepath":"onverraplustard","website":"https://eseo.fr/en/","fees":7600,"socials":{"instagram":"https://www.instagram.com/groupe_eseo/?hl=fr","twitter":"https://twitter.com/Groupe_ESEO?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/GroupeESEO/?rf=111941925489993"},"resume":{"approxAddress":"Vélizy-Villacoublay","since":1956,"numberOfStudents":-1,"numberOfForeigners":-1,"history":"The Western School of Electronics (ESEO Group since 2006) is one of the 205 French engineering schools accredited on September 1, 2019 to award an engineering degree4. The school is organized in the form of a non-profit association, recognized as being of public utility (EESPIG label), specializing in engineering training (Bac + 5) and Bachelor (Bac + 3) in computer science and electronics (formerly École Supérieure d'Electronique de l'Ouest). It is located in Angers, Dijon, Paris-Vélizy and Shanghai.","majors":["computer science","philosophy"],"mailAdress":"information@eseo.fr","phone":330172241020}},{"id":19,"ranking":0,"name":"ENSG Géomatique","category":"inge","intramuros":0,"coordinates":{"longitude":48.84122775325983,"latitude":2.5873665134279342},"womanprop":37,"imagepath":"onverraplustard","website":"https://www.ensg.eu/Geomatique","fees":1800,"socials":{"instagram":"https://www.instagram.com/explore/locations/286048440/?hl=fr","twitter":"https://twitter.com/ensg_ign?lang=fr","facebook":"https://www.facebook.com/ENSGeomatique/"},"resume":{"approxAddress":"Champs-sur-Marne","since":1941,"numberOfStudents":300,"numberOfForeigners":-1,"history":"The National School of Geographic Sciences, abbreviated as ENSG-Geomatics, is one of the 205 French engineering schools accredited on September 1, 2019 to award an engineering diploma1. She has been a member of Gustave Eiffel University since 20202. Managed by the National Institute of Geographic and Forest Information (IGN), its vocation is to train geomatics professionals at all possible levels, and in particular the technical staff of IGN. There are on average 300 students in initial training at the school throughout the year (all cycles combined).","majors":["computer science","philosophy"],"mailAdress":"https://www.ensg.eu/Contact-service-de-la-communication","phone":33164153001}},{"id":20,"ranking":0,"name":"Esipe Marne-la-Valée","category":"ing","intramuros":0,"coordinates":{"longitude":48.83941845344665,"latitude":2.5871490980844083},"womanprop":24,"imagepath":"onverraplustard","website":"https://esipe.u-pem.fr/","fees":610,"socials":{"instagram":"","twitter":"https://twitter.com/esipe_uge?lang=fr","facebook":"https://www.facebook.com/ESIPE/"},"resume":{"approxAddress":"Champs-sur-Marne","since":2018,"numberOfStudents":-1,"numberOfForeigners":-1,"history":"The higher school of engineers of Paris-Est (ESIPE) of the Gustave-Eiffel University was created by ministerial decree of March 22, 20183. It is one of the 205 French engineering schools accredited on September 1, 2019 to issue an engineering diploma. It is an internal school of the University Gustave-Eiffel (formerly the University of Paris-Est-Marne-la-Vallée).","majors":["computer science","philosophy"],"mailAdress":"contact.esipe@u-pem.fr","phone":33160957668}},{"id":21,"ranking":0,"name":"Episen (ex-Esipe Créteil)","category":"inge","intramuros":0,"coordinates":{"longitude":48.79519770602984,"latitude":2.443646340411009},"womanprop":52,"imagepath":"onverraplustard","website":"https://episen.u-pec.fr/","fees":601,"socials":{"instagram":"url","twitter":"url","facebook":"url"},"resume":{"approxAddress":"Créteil","since":2016,"numberOfStudents":-1,"numberOfForeigners":-1,"history":"The Public School of Health and Digital Engineers (EPISEN), previously known as the Paris-Est de Créteil Higher School of Engineers3, is one of the 205 French engineering schools accredited on September 1, 2019 to issue a engineering degree.","majors":["computer science","philosophy"],"mailAdress":"EPISEN@U-PEC.FR ","phone":33156726255}},{"id":22,"ranking":0,"name":"le Cnam","category":"inge","intramuros":1,"coordinates":{"longitude":48.86646578385076,"latitude":2.3555150762287282},"womanprop":16,"imagepath":"onverraplustard","website":"https://ecole-ingenieur.cnam.fr/","fees":601,"socials":{"instagram":"https://www.instagram.com/lecnam/?hl=fr","twitter":"https://twitter.com/lecnam?","facebook":"https://www.facebook.com/LeCnamIDF/"},"resume":{"approxAddress":"Paris","since":1922,"numberOfStudents":-1,"numberOfForeigners":-1,"history":"The Cnam School of Engineering (EiCnam) graduated 1,095 engineering students in 2010. Since 1924, creation of the first national engineering diploma, 30,000 engineers have followed their training at the Conservatory.","majors":["computer science","philosophy"],"mailAdress":"eicnam@cnam.fr","phone":330158808791}},{"id":23,"ranking":0,"name":"MINES ParisTech","category":"inge","intramuros":1,"coordinates":{"longitude":48.84578973460827,"latitude":2.3395568962335624},"womanprop":18,"imagepath":"onverraplustard","website":"https://www.minesparis.psl.eu/","fees":3500,"socials":{"instagram":"https://www.instagram.com/mines_paristech/?hl=fr","twitter":"https://twitter.com/MINES_ParisTech?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/MinesParisTech/"},"resume":{"approxAddress":"Paris","since":1783,"numberOfStudents":-1,"numberOfForeigners":-1,"history":"The École nationale supérieure des mines de Paris, also known under the names of the École des mines de Paris or simply “les Mines”, and more recently of MINES ParisTech, is one of the 205 French engineering schools accredited as of September 1 2019 to deliver an engineering degree. It is part of PSL University as a component establishment.It is historically the first French School of Mines.","majors":["computer science","philosophy"],"mailAdress":"contact@mines-paristech.fr","phone":33140519000}}]
-
-class Schools {
-  List<School> _schools;
-
-  List<School> get schools => _schools;
-
-  Schools({
-      List<School> schools}){
-    _schools = schools;
-}
-
-  Schools.fromJson(dynamic json) {
-    if (json["schools"] != null) {
-      _schools = [];
-      json["schools"].forEach((v) {
-        _schools.add(School.fromJson(v));
-      });
-    }
-  }
-
-  Map<String, dynamic> toJson() {
-    var map = <String, dynamic>{};
-    if (_schools != null) {
-      map["schools"] = _schools.map((v) => v.toJson()).toList();
-    }
-    return map;
-  }
-
-}
-
 /// id : 0
 /// ranking : 0
 /// name : "Télécom Paris"
@@ -42,94 +11,68 @@ class Schools {
 /// socials : {"instagram":"https://www.instagram.com/telecom_paris/?hl=fr","twitter":"https://twitter.com/TelecomParis_?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor","facebook":"https://www.facebook.com/TelecomParis/"}
 /// resume : {"approxAddress":"Palaiseau","since":1878,"numberOfStudents":1360,"numberOfForeigners":-1,"history":"In 1845, Alphonse Foy, director of telegraphic lines, proposed a school specializing in telegraphy for Polytechnicians. However, his proposition was rejected. The school was founded on 12 July 1878 as the École professionnelle supérieure des postes et télégraphes (EPSPT). In 1912, the school's name was changed to École supérieure des postes et télégraphes (ESPT)","majors":["computer science","philosophy"],"mailAdress":"contact@telecom-paris.fr","phone":33175319201}
 
-class School {
-  int _id;
-  int _ranking;
-  String _name;
-  String _category;
-  int _intramuros;
-  Coordinates _coordinates;
-  int _womanprop;
-  String _imagepath;
-  String _website;
-  int _fees;
-  Socials _socials;
-  Resume _resume;
+class Schools {
+  int id;
+  int ranking;
+  String name;
+  String category;
+  int intramuros;
+  Coordinates coordinates;
+  int womanprop;
+  String imagepath;
+  String website;
+  int fees;
+  Socials socials;
+  Resume resume;
 
-  int get id => _id;
-  int get ranking => _ranking;
-  String get name => _name;
-  String get category => _category;
-  int get intramuros => _intramuros;
-  Coordinates get coordinates => _coordinates;
-  int get womanprop => _womanprop;
-  String get imagepath => _imagepath;
-  String get website => _website;
-  int get fees => _fees;
-  Socials get socials => _socials;
-  Resume get resume => _resume;
+  Schools({
+      this.id, 
+      this.ranking, 
+      this.name, 
+      this.category, 
+      this.intramuros, 
+      this.coordinates, 
+      this.womanprop, 
+      this.imagepath, 
+      this.website, 
+      this.fees, 
+      this.socials, 
+      this.resume});
 
-  School({
-      int id, 
-      int ranking, 
-      String name, 
-      String category, 
-      int intramuros, 
-      Coordinates coordinates, 
-      int womanprop, 
-      String imagepath, 
-      String website, 
-      int fees, 
-      Socials socials, 
-      Resume resume}){
-    _id = id;
-    _ranking = ranking;
-    _name = name;
-    _category = category;
-    _intramuros = intramuros;
-    _coordinates = coordinates;
-    _womanprop = womanprop;
-    _imagepath = imagepath;
-    _website = website;
-    _fees = fees;
-    _socials = socials;
-    _resume = resume;
-}
-
-  School.fromJson(dynamic json) {
-    _id = json["id"];
-    _ranking = json["ranking"];
-    _name = json["name"];
-    _category = json["category"];
-    _intramuros = json["intramuros"];
-    _coordinates = json["coordinates"] != null ? Coordinates.fromJson(json["coordinates"]) : null;
-    _womanprop = json["womanprop"];
-    _imagepath = json["imagepath"];
-    _website = json["website"];
-    _fees = json["fees"];
-    _socials = json["socials"] != null ? Socials.fromJson(json["socials"]) : null;
-    _resume = json["resume"] != null ? Resume.fromJson(json["resume"]) : null;
+  Schools.fromJson(dynamic json) {
+    id = json["id"];
+    ranking = json["ranking"];
+    name = json["name"];
+    category = json["category"];
+    intramuros = json["intramuros"];
+    coordinates = json["coordinates"] != null ? Coordinates.fromJson(json["coordinates"]) : null;
+    womanprop = json["womanprop"];
+    imagepath = json["imagepath"];
+    website = json["website"];
+    fees = json["fees"];
+    socials = json["socials"] != null ? Socials.fromJson(json["socials"]) : null;
+    resume = json["resume"] != null ? Resume.fromJson(json["resume"]) : null;
   }
 
   Map<String, dynamic> toJson() {
     var map = <String, dynamic>{};
-    map["id"] = _id;
-    map["ranking"] = _ranking;
-    map["name"] = _name;
-    map["category"] = _category;
-    map["intramuros"] = _intramuros;
-    if (_coordinates != null) {
-      map["coordinates"] = _coordinates.toJson();
+    map["id"] = id;
+    map["ranking"] = ranking;
+    map["name"] = name;
+    map["category"] = category;
+    map["intramuros"] = intramuros;
+    if (coordinates != null) {
+      map["coordinates"] = coordinates.toJson();
     }
-    map["womanprop"] = _womanprop;
-    map["imagepath"] = _imagepath;
-    map["website"] = _website;
-    map["fees"] = _fees;
-    if (_socials != null) {
-      map["socials"] = _socials.toJson();
+    map["womanprop"] = womanprop;
+    map["imagepath"] = imagepath;
+    map["website"] = website;
+    map["fees"] = fees;
+    if (socials != null) {
+      map["socials"] = socials.toJson();
     }
-    if (_resume != null) {
-      map["resume"] = _resume.toJson();
+    if (resume != null) {
+      map["resume"] = resume.toJson();
     }
     return map;
   }
@@ -146,64 +89,46 @@ class School {
 /// phone : 33175319201
 
 class Resume {
-  String _approxAddress;
-  int _since;
-  int _numberOfStudents;
-  int _numberOfForeigners;
-  String _history;
-  List<String> _majors;
-  String _mailAdress;
-  int _phone;
-
-  String get approxAddress => _approxAddress;
-  int get since => _since;
-  int get numberOfStudents => _numberOfStudents;
-  int get numberOfForeigners => _numberOfForeigners;
-  String get history => _history;
-  List<String> get majors => _majors;
-  String get mailAdress => _mailAdress;
-  int get phone => _phone;
+  String approxAddress;
+  int since;
+  int numberOfStudents;
+  int numberOfForeigners;
+  String history;
+  List<String> majors;
+  String mailAdress;
+  int phone;
 
   Resume({
-      String approxAddress, 
-      int since, 
-      int numberOfStudents, 
-      int numberOfForeigners, 
-      String history, 
-      List<String> majors, 
-      String mailAdress, 
-      int phone}){
-    _approxAddress = approxAddress;
-    _since = since;
-    _numberOfStudents = numberOfStudents;
-    _numberOfForeigners = numberOfForeigners;
-    _history = history;
-    _majors = majors;
-    _mailAdress = mailAdress;
-    _phone = phone;
-}
+      this.approxAddress, 
+      this.since, 
+      this.numberOfStudents, 
+      this.numberOfForeigners, 
+      this.history, 
+      this.majors, 
+      this.mailAdress, 
+      this.phone});
 
   Resume.fromJson(dynamic json) {
-    _approxAddress = json["approxAddress"];
-    _since = json["since"];
-    _numberOfStudents = json["numberOfStudents"];
-    _numberOfForeigners = json["numberOfForeigners"];
-    _history = json["history"];
-    _majors = json["majors"] != null ? json["majors"].cast<String>() : [];
-    _mailAdress = json["mailAdress"];
-    _phone = json["phone"];
+    approxAddress = json["approxAddress"];
+    since = json["since"];
+    numberOfStudents = json["numberOfStudents"];
+    numberOfForeigners = json["numberOfForeigners"];
+    history = json["history"];
+    majors = json["majors"] != null ? json["majors"].cast<String>() : [];
+    mailAdress = json["mailAdress"];
+    phone = json["phone"];
   }
 
   Map<String, dynamic> toJson() {
     var map = <String, dynamic>{};
-    map["approxAddress"] = _approxAddress;
-    map["since"] = _since;
-    map["numberOfStudents"] = _numberOfStudents;
-    map["numberOfForeigners"] = _numberOfForeigners;
-    map["history"] = _history;
-    map["majors"] = _majors;
-    map["mailAdress"] = _mailAdress;
-    map["phone"] = _phone;
+    map["approxAddress"] = approxAddress;
+    map["since"] = since;
+    map["numberOfStudents"] = numberOfStudents;
+    map["numberOfForeigners"] = numberOfForeigners;
+    map["history"] = history;
+    map["majors"] = majors;
+    map["mailAdress"] = mailAdress;
+    map["phone"] = phone;
     return map;
   }
 
@@ -214,34 +139,26 @@ class Resume {
 /// facebook : "https://www.facebook.com/TelecomParis/"
 
 class Socials {
-  String _instagram;
-  String _twitter;
-  String _facebook;
-
-  String get instagram => _instagram;
-  String get twitter => _twitter;
-  String get facebook => _facebook;
+  String instagram;
+  String twitter;
+  String facebook;
 
   Socials({
-      String instagram, 
-      String twitter, 
-      String facebook}){
-    _instagram = instagram;
-    _twitter = twitter;
-    _facebook = facebook;
-}
+      this.instagram, 
+      this.twitter, 
+      this.facebook});
 
   Socials.fromJson(dynamic json) {
-    _instagram = json["instagram"];
-    _twitter = json["twitter"];
-    _facebook = json["facebook"];
+    instagram = json["instagram"];
+    twitter = json["twitter"];
+    facebook = json["facebook"];
   }
 
   Map<String, dynamic> toJson() {
     var map = <String, dynamic>{};
-    map["instagram"] = _instagram;
-    map["twitter"] = _twitter;
-    map["facebook"] = _facebook;
+    map["instagram"] = instagram;
+    map["twitter"] = twitter;
+    map["facebook"] = facebook;
     return map;
   }
 
@@ -251,28 +168,22 @@ class Socials {
 /// latitude : 2.1993622960556736
 
 class Coordinates {
-  double _longitude;
-  double _latitude;
-
-  double get longitude => _longitude;
-  double get latitude => _latitude;
+  double longitude;
+  double latitude;
 
   Coordinates({
-      double longitude, 
-      double latitude}){
-    _longitude = longitude;
-    _latitude = latitude;
-}
+      this.longitude, 
+      this.latitude});
 
   Coordinates.fromJson(dynamic json) {
-    _longitude = json["longitude"];
-    _latitude = json["latitude"];
+    longitude = json["longitude"];
+    latitude = json["latitude"];
   }
 
   Map<String, dynamic> toJson() {
     var map = <String, dynamic>{};
-    map["longitude"] = _longitude;
-    map["latitude"] = _latitude;
+    map["longitude"] = longitude;
+    map["latitude"] = latitude;
     return map;
   }
 
