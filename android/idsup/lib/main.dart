@@ -8,6 +8,9 @@ import 'Views/school/schoolRow.dart';
 
 
 void main() {
+  if(Schools.fromJson(ModelData().loadFromAsset()) == null) {
+    print("null");
+  }
   runApp(MyApp(schools: Schools.fromJson(ModelData().loadFromAsset()),)
   );
 }
