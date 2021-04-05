@@ -14,23 +14,51 @@ void main() {
 
 class MyApp extends StatelessWidget {
 
-  final Future<dynamic> schools = ModelData().readJson();
-
   @override
 
 
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ID SUP',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('ID Sup'),
-        ),
-        body: Center(
-          child: schoolRow(schoolinRow: schools[0]),
-        ),
-      ),
+        // Hide the debug banner
+        title: 'test',
+        home: HomePage(),
     );
   }
 }
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => _HomePageState();
 
+}
+class _HomePageState extends State<HomePage> {
+  List schoolList = [];
+
+  // Fetch content from the json file
+  Future<void> getSchools() async {
+    List school = await readJson();
+    setState(() {
+      schoolList = school;
+    });
+  }
+
+
+  void initState()
+  {
+    getSchools();
+    super.initState();
+  }
+
+
+
+  Widget build(BuildContext context) {
+    return
+      Column(
+            children: <Widget>
+        [
+              //schoolRow(schoolinRow: schoolList[0]),
+              Container(width: 0.0, height: 0.0),
+        ]
+        );
+  }
+
+  }
