@@ -14,7 +14,8 @@ struct SchoolDetail: View {
     var body: some View {
         ScrollView{
             
-            MapView(latitude: school.coordinates.latitude, longitude: school.coordinates.longitude).ignoresSafeArea(edges: .top).frame(height: 300)
+            MapView(
+                latitude: school.coordinates.latitude, longitude: school.coordinates.longitude).ignoresSafeArea(edges: .top).frame(height: 300)
             CircleImage(image: school.image).offset(y: -130).padding(.bottom, -130)
             VStack(alignment: .leading) {
                 HStack{
@@ -42,8 +43,12 @@ struct SchoolDetail: View {
 
                 HStack{
                     Text("Students:")
-
-                    Text(String(school.resume.numberOfStudents))
+                    if(school.resume.numberOfStudents != -1){
+                        Text(String(school.resume.numberOfStudents))
+                    }
+                    else{
+                        Text("N/A")
+                    }
                     
                 }
                 
@@ -108,7 +113,7 @@ struct SchoolDetail: View {
                         
                         Spacer()
                         
-                        let mail = "mailto://" + school.resume.mailAdress
+                        let mail = "mailto:" + school.resume.mailAdress
                         
                         Link(destination: URL(string: mail)!){
                         Image(systemName: "mail").resizable().scaledToFill().frame(width:50, height: 50)
@@ -116,7 +121,7 @@ struct SchoolDetail: View {
                         
                         Spacer()
                         
-                        let phone = "tel://"+String(school.resume.phone)
+                        let phone = "tel:"+String(school.resume.phone)
                         
                         Link(destination: URL(string: phone)!){
                         Image(systemName: "phone.fill").resizable().scaledToFill().frame(width:50, height: 50)

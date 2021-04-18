@@ -15,7 +15,7 @@ struct SchoolRow: View {
             school.image.resizable().frame(width: 50, height: 50).padding(5)
             Text(school.name)
             Spacer()
-            Text(school.resume.approxAddress.prefix(5)).foregroundColor(.gray).padding()
+            Text(school.resume.approxAddress).foregroundColor(.gray).padding()
             
         }
         
@@ -25,6 +25,6 @@ struct SchoolRow: View {
 struct SchoolRow_Previews: PreviewProvider {
     static var Schools = ModelData().schools
     static var previews: some View {
-        SchoolRow(school: Schools[0]).previewLayout(.fixed(width: 300, height: 70))
+        SchoolRow(school: Schools[3]).previewLayout(.fixed(width: 300, height: 70))
     }
 }

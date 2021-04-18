@@ -31,6 +31,6 @@ struct MapView: View {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(latitude: 48.755473059554596, longitude: 2.169989080911633)
+        MapView(latitude:2.169989080911633 , longitude: 48.755473059554596)
     }
 }

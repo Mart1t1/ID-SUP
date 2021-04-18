@@ -4,7 +4,7 @@ import 'dart:convert';
 
 import 'Models/Modeldata.dart';
 import 'Models/schools.dart';
-import 'Views/school/schoolRow.dart';
+import 'Views/school/schoolList.dart';
 
 
 void main() {
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         // Hide the debug banner
-        title: 'test',
+        title: 'ID-SUP',
         home: HomePage(),
     );
   }
@@ -31,13 +31,13 @@ class HomePage extends StatefulWidget {
 
 }
 class _HomePageState extends State<HomePage> {
-  List schoolList = [];
+  List schools = [];
 
   // Fetch content from the json file
   Future<void> getSchools() async {
     List school = await readJson();
     setState(() {
-      schoolList = school;
+      schools = school;
     });
   }
 
@@ -51,14 +51,10 @@ class _HomePageState extends State<HomePage> {
 
 
   Widget build(BuildContext context) {
-    return
-      Column(
-            children: <Widget>
-        [
-              //schoolRow(schoolinRow: schoolList[0]),
-              Container(width: 0.0, height: 0.0),
-        ]
-        );
+    return Material(
+
+      child: (schools.length > 0 ? schoolList(schools: schools) : Container(width: 0.0, height: 0.0))
+    );
   }
 
   }
