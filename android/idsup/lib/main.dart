@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-
-import 'dart:convert';
-
 import 'Models/Modeldata.dart';
 import 'Models/schools.dart';
 import 'Views/school/schoolList.dart';
@@ -35,7 +32,7 @@ class _HomePageState extends State<HomePage> {
 
   // Fetch content from the json file
   Future<void> getSchools() async {
-    List school = await readJson();
+    List <Schools> school = await readJson();
     setState(() {
       schools = school;
     });
@@ -51,10 +48,17 @@ class _HomePageState extends State<HomePage> {
 
 
   Widget build(BuildContext context) {
-    return Material(
+    return MaterialApp(
+      
 
-      child: (schools.length > 0 ? schoolList(schools: schools) : Container(width: 0.0, height: 0.0))
+      home: 
+      Scaffold(
+        appBar: AppBar(title: const Text('ID SUP'),),
+        body:   
+          (schools.length > 0 ? schoolList(schools: schools) : Container(width: 0.0, height: 0.0))
+      )
     );
   }
+
 
   }

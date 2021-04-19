@@ -1,8 +1,4 @@
 import'package:flutter/material.dart';
-
-import '../../Models/Modeldata.dart';
-import '../../Models/schools.dart';
-import '../helper/Helpers.dart';
 import 'schoolDetail.dart';
 
 class schoolRow extends StatelessWidget {
