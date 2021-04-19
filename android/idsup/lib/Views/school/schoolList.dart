@@ -55,7 +55,6 @@ class _schoolList extends State<schoolList> {
                   )
                 ]
               )
-            //)
     );
   }
 
