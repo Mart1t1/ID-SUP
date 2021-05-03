@@ -3,7 +3,7 @@
         "id" : 0,
         "ranking" : 0,
         "name" : "Télécom Paris",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 48.716187071585495,
@@ -29,11 +29,8 @@
             "history" : "In 1845, Alphonse Foy, director of telegraphic lines, proposed a school specializing in telegraphy for Polytechnicians. However, his proposition was rejected. The school was founded on 12 July 1878 as the École professionnelle supérieure des postes et télégraphes (EPSPT). In 1912, the school's name was changed to École supérieure des postes et télégraphes (ESPT)",
             "majors" :
             [
-                "Big Data",
-                "Smart Mobiltiy",
-				"Artificial Intelligence",
-				"Cybersecurity",
-				"Design, Network Architecture, and Cyber Security"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "contact@telecom-paris.fr",
             "phone" : 33175319201
@@ -45,7 +42,7 @@
         "id" : 1,
         "ranking" : 0,
         "name" : "Ensta Paris",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 48.71078389272253,
@@ -71,12 +68,8 @@
             "history" : "The ENSTA Paris, formerly known as the École nationale supérieure de techniques avancées (English: Superior National School of Advanced Techniques) is a prestigious French graduate school of engineering (école d'ingénieurs). Founded in 1741, it is the oldest grande école in France. It is located in Palaiseau in the south of Paris, on the Paris-Saclay campus, and is a constituent faculty of the Polytechnic Institute of Paris. Every year some 180 engineers graduate from the school.",
             "majors" :
             [
-                "Maritime Engineering",
-                "Architecture and Security of Information Systems",
-				"Geo-Locating and Multi-Sensor Systems Engineering",
-				"Project Management of charging infrastructure and electric vehicles",
-				"Artificial Intelligence",
-				"Innovation and entrepreneurship"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "sylvain.ferrari@ensta-paris.fr",
             "phone" : 33181871740
@@ -89,7 +82,7 @@
         "id" : 2,
         "ranking" : 0,
         "name" : "Ensae - Paris",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 48.711192068870055,
@@ -115,10 +108,8 @@
             "history" : "Originally, the school was the brainchild of Henri-Louis Duhamel du Monceau, inspector general of the Navy. He had identified the need to give the Navy's master carpenters a theoretical education, particularly in mathematics and physics, which were making quick progress, so that they would have a clearer understanding of their trade.",
             "majors" :
             [
-                "Actuarial Science",
-                "Data Science",
-				"Quantitative Methods for Economic and Financial Decisions",
-				"Finance and Risk Management"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "info@ensae.fr",
             "phone" : 33170266700
@@ -131,7 +122,7 @@
         "id" : 3,
         "ranking" : 0,
         "name" : "Télécom SudParis",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 48.625169778079965,
@@ -139,7 +130,7 @@
         },
         "womanprop" : 22,
         "imagepath" : "onverraplustard",
-        "website" : "https://www.telecom-sudparis.eu/",
+        "website" : "https://www.telecom-sudparis.eu",
         "fees" : 2650,
         "socials" :
         {
@@ -157,12 +148,10 @@
             "history" : "Founded in 2000 by Télécom SudParis and Institut Mines-Télécom Business School, the Télécom & Management SudParis Entrepreneurs incubator is also common to ENSIIE. Its goal is to host and support project leaders for the creation of innovative IT companies.",
             "majors" :
             [
-                "Computer Science for Networks",
-                "Electrical Engineering for Communications & Information  Processing",
-				"Optical Networks and Photonic Systems",
-				"Data Science and Network Intelligence"
+                "computer science",
+                "philosophy"
             ],
-            "mailAdress" : "international@telecom-sudparis.eu ",
+            "mailAdress" : "international@telecom-sudparis.eu",
             "phone" : 3360764040
 
         }
@@ -173,7 +162,7 @@
         "id" : 4,
         "ranking" : 0,
         "name" : "Efrei Paris",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 48.78877123047309,
@@ -194,19 +183,13 @@
         {
             "approxAddress" : "Villejuif",
             "since" : 1986,
-            "numberOfStudents" : 450,
+            "numberOfStudents" : 2300,
             "numberOfForeigners" : -1,
             "history" : "The EFREI (École d'ingénieur généraliste en informatique et technologies du numérique) (Engineering School of Information and Digital Technologies) is a French private engineering school located in Villejuif, Île-de-France, at the south of Paris. Its courses, specializing in computer science and management, are taught with support from the state. ",
             "majors" :
             [
-                "Business Intelligence & Analytics",
-                "Digital Transformation",
-				"Software  Engineering",
-				"Network & Cloud Infrastructure",
-				"Big Data and Machine Learning",
-				"IT for Finance",
-				"Transports Intelligents",
-				"Energie & Smart Grids"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "informations@efrei.fr",
             "phone" : 33146776467
@@ -219,7 +202,7 @@
         "id" : 5,
         "ranking" : 0,
         "name" : "ISEP",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 1,
         "coordinates" : {
             "longitude": 48.845518232807926,
@@ -245,9 +228,8 @@
             "history" : "ISEP was created by the Institut Catholique de Paris in 1955, where Edouard Branly, then Professor of Physics, discovered radioconductors at the origin of wireless transmission (T.S.F). Since its inception, ISEP's educational project has focused on high-level scientific and technical training that places a high priority on human training, which is essential for future responsible executives.",
             "majors" :
             [
-                "Embedded Systems",
-                "Software Engineering",
-				"Wireless Telecommunication Systems and IOT"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "info@isep.fr",
             "phone" : 33149545200
@@ -260,7 +242,7 @@
         "id" : 6,
         "ranking" : 0,
         "name" : "ESILV",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 48.89631386769784,
@@ -286,15 +268,8 @@
             "history" : "The Leonard de Vinci Engineering School (ESILV) is a five-year engineering school in Paris, France. It was placed 10th among French engineering schools Post-bac in the 2010 Le Point rankings. It is fully accredited to award the title of ingénieur by the French Commission of Engineering Titles. ESILV is part of the Pôle universitaire Léonard-de-Vinci. The director of the school is Professor Michel Bernadou.",
             "majors" :
             [
-                "IoT and Security",
-                "Fintech",
-				"Financial Engineering and Quantitative Finance",
-				"Industry 4.0",
-				"Energy and Sustainable Cities",
-				"Health Engineering and Biotechnology",
-				"Data and Artificial Intelligence",
-				"Modelling and Computational Mechanics"
-
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "contact@devinci.fr",
             "phone" : 141167000
@@ -307,7 +282,7 @@
         "id" : 7,
         "ranking" : 0,
         "name" : "ECE",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 1,
         "coordinates" : {
             "longitude": 48.85163451353787,
@@ -333,13 +308,8 @@
             "history" : "The school was founded in Paris in 1919, under the name of Ecole Centrale de TSF (Télégraphie Sans Fil), in the aftermath of the First World War, under the leadership of a young petty officer, Eugène Poirot.",
             "majors" :
             [
-                "Energy & Environment",
-                "Financial Engineering",
-				"Health & Technology",
-				"Transport & Mobilty",
-				"Embedded Systems",
-				"Telecommunications & Networks",
-				"Information Systems"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "",
             "phone" : -1
@@ -352,7 +322,7 @@
         "id" : 8,
         "ranking" : 0,
         "name" : "ESIEE Paris",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 48.84036538242425,
@@ -378,10 +348,8 @@
             "history" : "ESIEE Paris (French: École Supérieure d'Ingénieurs en Électrotechnique et Électronique) is a Grande Ecole graduate school of engineering located in Marne-la-Vallée. The school was established in 1904 and is part of the ESIEE network of graduate schools. ESIEE Paris offers its students general engineering training with the aim of enabling them to design, produce and oversee complex industrial systems while meeting strict economic constraints and dealing with an international environment. To accomplish this, the school renders advanced scientific and technological training, which is frequently updated to keep pace with changes in the leading edge technologies and supplemented by its association with language, general culture, economics and humanities teaching.",
             "majors" :
             [
-                "Artificial Intelligence",
-                "Connected Objects, Devices and Systems",
-				"Management of Technology - Information Systems",
-				"Electrical and Electronic Systems Engineering"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "https://www.esiee.fr/fr/contact-international",
             "phone" : 33145926500
@@ -394,7 +362,7 @@
         "id" : 9,
         "ranking" : 0,
         "name" : "Cesi École d'ingénieurs",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 48.90338092244385,
@@ -420,10 +388,8 @@
             "history" : "The founding project of CESI relates to social and institutional innovation. Over time, CESI has remained anchored in its social values, and its new training courses, with the original values. In 1989, CESI was the first school to offer courses for engineers in apprenticeship.",
             "majors" :
             [
-                "Industrial Engineering",
-                "Civil Engineering & Construction",
-				"IT - Computer Science Engineering",
-				"Embedded Systems Engineering"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "https://contact.cesi.fr/par-email/",
             "phone" : 33144192345
@@ -436,7 +402,7 @@
         "id" : 10,
         "ranking" : 0,
         "name" : "ENSIIE",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 48.62696340186135,
@@ -462,19 +428,8 @@
             "history" : "Created in 1968 within the National Conservatory of Arts and Crafts, the Institute of Business Informatics (IIE) was first established in Paris, in the premises of the CNAM. ... On September 13, 2011, ENSIIE joined the network of associated schools of the Institut Mines-Télécom.",
             "majors" :
             [
-                "Artificial Intelligence",
-                "Computer Networks",
-				"Hardware",
-				"Cybersecurity",
-				"Video Game Design",
-				"Virtual Reality",
-				"Data Science",
-				"Operational Research",
-				"Formal Methods",
-				"Finance",
-				"Probabilities",
-				"Management",
-				"Entrepreneurship"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "Vathana.lyvath@ensiie.fr",
             "phone" : 33169367350
@@ -487,7 +442,7 @@
         "id" : 11,
         "ranking" : 0,
         "name" : "Polytech Sorbonne",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 1,
         "coordinates" : {
             "longitude": 48.84677026816889,
@@ -513,11 +468,8 @@
             "history" : "The school, born in 2005, is the result of the merger of two UPMC institutes: the Institute for the Training of Engineers in Electronic Techniques in Paris (IFITEP) founded in 1991; the Institute of Science and Technology (IST) founded in 1983.",
             "majors" :
             [
-                "Food Industry",
-                "Electronic and Computer Science",
-				"Mathematics",
-				"Robotics",
-				"Mechanical Engineering"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "https://www.polytech.sorbonne-universite.fr/qui-contacter",
             "phone" : 33144277313
@@ -530,7 +482,7 @@
         "id" : 12,
         "ranking" : 0,
         "name" : "EPITA",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 48.81581797422478,
@@ -553,12 +505,11 @@
             "since" : 1984,
             "numberOfStudents" : -1,
             "numberOfForeigners" : -1,
-            "history": "Created in 1984, it is a private higher education institution recognized by the State. It is a member of the Conférence des Grandes Ecoles (CGE), of the Union of Independent Grandes Ecoles (UGEI), of the Conference of Directors of French Engineering Schools (CDEFI) and belongs to the Institute of Technology pole of the IONIS group.",
+            "history": "Created in 1984, it is a private higher education institution recognized by the State.It is a member of the Conférence des Grandes Ecoles (CGE), of the Union of Independent Grandes Ecoles (UGEI), of the Conference of Directors of French Engineering Schools (CDEFI) and belongs to the Institute of Technology pole of the IONIS group.",
             "majors" :
             [
-                "Artificial Intelligent for Marketing Strategy",
-                "Computer Science",
-				"Artificial Intelligence Systems"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "dayana.patel@epita.fr",
             "phone" : 330144080046
@@ -570,8 +521,8 @@
      {
         "id" : 13,
         "ranking" : 0,
-        "name" : "IPSA",
-        "category" : "engineering school",
+        "name" : "Ipsa",
+        "category" : "inge",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 48.81464443725002,
@@ -594,10 +545,11 @@
             "since" : 1961,
             "numberOfStudents" : -1,
             "numberOfForeigners" : -1,
-            "history" : "IPSA was created in 1961 in Paris by Michel Cazin, Maurice Pradier and Paul Lefort and was acquired in 1999 by the IONIS5 Group. In 2005, the title issued by the school was registered, after consulting the national commission for professional certification, in the National Directory of Professional Certifications at level I. The year 2006 saw the institute host the 6th European Congress of the Mars Society aimed at promoting the exploration of the planet Mars and the design of the Martian habitat.",
+            "history" : "IPSA was created in 1961 in Paris by Michel Cazin, Maurice Pradier and Paul Lefort and was acquired in 1999 by the IONIS5 Group. In 2005, the title issued by the school was registered, after consulting the national commission for professional certification, in the National Directory of Professional Certifications at level I6. The year 2006 saw the institute host the 6th European Congress of the Mars Society aimed at promoting the exploration of the planet Mars and the design of the Martian habitat.",
             "majors" :
             [
-                "Aeronautical Engineering"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "info@ipsa.fr",
             "phone" : 330184071515
@@ -610,7 +562,7 @@
         "id" : 14,
         "ranking" : 0,
         "name" : "Polytech Paris-Saclay",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 48.70919229361006,
@@ -636,9 +588,8 @@
             "history" : "The École polytechnique universitaire of the University of Paris-Saclay, also known as Polytech Paris-Saclay (formerly the Institute for the training of engineers of the University of Paris-Sud 11 or IFIPS) is one of the 205 engineering schools French women accredited on September 1, 2019 to issue an engineering diploma. Integrated into the University of Paris-Saclay, located at the Maison de l'Ingénieur (building 620 of the Orsay Scientific Center) on the Orsay campus (at the heart of the University of Paris-Saclay and of CentraleSupélec), it is located in the Paris-Saclay technological cluster.",
             "majors" :
             [
-                "Electronic and Robotised Systems",
-                "Informatics",
-				"Materials: Mecanics and Energy"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "contact.polytech@universite-paris-saclay.fr",
             "phone" : 330169338600
@@ -651,7 +602,7 @@
         "id" : 15,
         "ranking" : 0,
         "name" : "Esme Sudria",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 1,
         "coordinates" : {
             "longitude": 48.84004716727125,
@@ -674,12 +625,11 @@
             "since" : 1905,
             "numberOfStudents" : -1,
             "numberOfForeigners" : -1,
-            "history" : "The Special School of Mechanics and Electricity (usual name ESME Sudria), is one of the 205 French engineering schools accredited on September 1, 2019 to award an engineering diploma. It is a state-recognized private higher education institution that provides training in the fields of electrical engineering, electronics, telecommunications and IT. It is a member of the Conférence des grandes écoles (CGE), the union of independent grandes écoles (UGEI) and belongs to the IONIS group.",
+            "history" : "The Special School of Mechanics and Electricity (usual name ESME Sudria), is one of the 205 French engineering schools accredited on September 1, 2019 to award an engineering diploma1. It is a state-recognized private higher education institution that provides training in the fields of electrical engineering, electronics, telecommunications and IT. It is a member of the Conférence des grandes écoles (CGE), the union of independent grandes écoles (UGEI) and belongs to the IONIS group.",
             "majors" :
             [
-                "Innovation",
-                "International Connection",
-				"Energy and Environment"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "contact@esme.fr",
             "phone" :  330156206200
@@ -692,7 +642,7 @@
         "id" : 16,
         "ranking" : 0,
         "name" : "ENSEA",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 49.03948162684108,
@@ -718,8 +668,8 @@
             "history" : "The National School of Electronics and its Applications (ENSEA) is one of 205 French engineering schools accredited on September 1, 2019 to award an engineering degree. General practitioner and public, located in Cergy-Pontoise, in Val-d'Oise, she is a member of the Conférence des grandes écoles (CGE), the conference of directors of French engineering schools (CDEFI) and the ComUE University Paris Seine, which brings together several higher education establishments on the Cergy campus such as ESSEC, UCP, EISTI or even SUPMECA. Since its creation in 1952, it has been empowered by the Engineering Titles Commission to award the ENSEA engineering diploma.",
             "majors" :
             [
-                "Integrated digital systems",
-                "Networks and Telecommunications"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "https://www.ensea.fr/en/node/59",
             "phone" : 33130736666
@@ -732,7 +682,7 @@
         "id" : 17,
         "ranking" : 0,
         "name" : "EIDD",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 1,
         "coordinates" : {
             "longitude": 48.826888906221654,
@@ -758,10 +708,8 @@
             "history" : "In 2010, the University of Paris-VII was for the first time authorized by the CTI, for a period of 2 years, to issue engineering degrees in 3 specialties under student status: architecture of physical systems, Computing and materials and nanotechnologies. The school was not created until the following year by a decree of June 6, 2011.",
             "majors" :
             [
-                "Engineering physics",
-                "Materials and nanotechnologies",
-				"Embedded Computer Systems",
-				"Biological engineering"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "eidd@univ-paris-diderot.fr",
             "phone" : 33157276125
@@ -774,7 +722,7 @@
         "id" : 18,
         "ranking" : 0,
         "name" : "ESEO",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 48.78318985808898,
@@ -797,15 +745,11 @@
             "since" : 1956,
             "numberOfStudents" : -1,
             "numberOfForeigners" : -1,
-            "history" : "The Western School of Electronics (ESEO Group since 2006) is one of the 205 French engineering schools accredited on September 1, 2019 to award an engineering degree. The school is organized in the form of a non-profit association, recognized as being of public utility (EESPIG label), specializing in engineering training (Bac + 5) and Bachelor (Bac + 3) in computer science and electronics (formerly École Supérieure d'Electronique de l'Ouest). It is located in Angers, Dijon, Paris-Vélizy and Shanghai.",
+            "history" : "The Western School of Electronics (ESEO Group since 2006) is one of the 205 French engineering schools accredited on September 1, 2019 to award an engineering degree4. The school is organized in the form of a non-profit association, recognized as being of public utility (EESPIG label), specializing in engineering training (Bac + 5) and Bachelor (Bac + 3) in computer science and electronics (formerly École Supérieure d'Electronique de l'Ouest). It is located in Angers, Dijon, Paris-Vélizy and Shanghai.",
             "majors" :
             [
-                "E-Health",
-                "Smart City",
-				"Electronics and Embedded Objects",
-				"Energy and Environment",
-				"Data Science",
-				"Big Data"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "information@eseo.fr",
             "phone" : 330172241020
@@ -818,7 +762,7 @@
         "id" : 19,
         "ranking" : 0,
         "name" : "ENSG Géomatique",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 48.84122775325983,
@@ -841,13 +785,11 @@
             "since" : 1941,
             "numberOfStudents" : 300,
             "numberOfForeigners" : -1,
-            "history" : "The National School of Geographic Sciences, abbreviated as ENSG-Geomatics, is one of the 205 French engineering schools accredited on September 1, 2019 to award an engineering diploma1. She has been a member of Gustave Eiffel University since 2020. Managed by the National Institute of Geographic and Forest Information (IGN), its vocation is to train geomatics professionals at all possible levels, and in particular the technical staff of IGN. There are on average 300 students in initial training at the school throughout the year (all cycles combined).",
+            "history" : "The National School of Geographic Sciences, abbreviated as ENSG-Geomatics, is one of the 205 French engineering schools accredited on September 1, 2019 to award an engineering diploma1. She has been a member of Gustave Eiffel University since 20202. Managed by the National Institute of Geographic and Forest Information (IGN), its vocation is to train geomatics professionals at all possible levels, and in particular the technical staff of IGN. There are on average 300 students in initial training at the school throughout the year (all cycles combined).",
             "majors" :
             [
-                "Geomatics",
-                "Agrosystems",
-				"Carthageo",
-				"Sustainable Development"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "https://www.ensg.eu/Contact-service-de-la-communication",
             "phone" : 33164153001
@@ -860,7 +802,7 @@
         "id" : 20,
         "ranking" : 0,
         "name" : "Esipe Marne-la-Valée",
-        "category" : "engineering school",
+        "category" : "ing",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 48.83941845344665,
@@ -886,10 +828,8 @@
             "history" : "The higher school of engineers of Paris-Est (ESIPE) of the Gustave-Eiffel University was created by ministerial decree of March 22, 20183. It is one of the 205 French engineering schools accredited on September 1, 2019 to issue an engineering diploma. It is an internal school of the University Gustave-Eiffel (formerly the University of Paris-Est-Marne-la-Vallée).",
             "majors" :
             [
-                "Electronics and Informatics",
-                "Mechanical Engineering",
-				"Image",
-				"Civil Engineering"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "contact.esipe@u-pem.fr",
             "phone" : 33160957668
@@ -902,7 +842,7 @@
         "id" : 21,
         "ranking" : 0,
         "name" : "Episen (ex-Esipe Créteil)",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 0,
         "coordinates" : {
             "longitude": 48.79519770602984,
@@ -914,9 +854,9 @@
         "fees" : 601,
         "socials" :
         {
-            "instagram" : "",
-            "twitter" : "",
-            "facebook" : ""
+            "instagram" : "url",
+            "twitter" : "url",
+            "facebook" : "url"
 
         },
         "resume" :
@@ -925,14 +865,13 @@
             "since" : 2016,
             "numberOfStudents" : -1,
             "numberOfForeigners" : -1,
-            "history" : "The Public School of Health and Digital Engineers (EPISEN), previously known as the Paris-Est de Créteil Higher School of Engineers, is one of the 205 French engineering schools accredited on September 1, 2019 to issue a engineering degree.",
+            "history" : "The Public School of Health and Digital Engineers (EPISEN), previously known as the Paris-Est de Créteil Higher School of Engineers3, is one of the 205 French engineering schools accredited on September 1, 2019 to issue a engineering degree.",
             "majors" :
             [
-                "Biomedical Engineering and Health",
-                "Information Systems",
-				"Health Technology"
+                "computer science",
+                "philosophy"
             ],
-            "mailAdress" : "EPISEN@U-PEC.FR",
+            "mailAdress" : "episen@u-pec.fr ",
             "phone" : 33156726255
 
         }
@@ -943,7 +882,7 @@
         "id" : 22,
         "ranking" : 0,
         "name" : "le Cnam",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 1,
         "coordinates" : {
             "longitude": 48.86646578385076,
@@ -969,6 +908,8 @@
             "history" : "The Cnam School of Engineering (EiCnam) graduated 1,095 engineering students in 2010. Since 1924, creation of the first national engineering diploma, 30,000 engineers have followed their training at the Conservatory.",
             "majors" :
             [
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "eicnam@cnam.fr",
             "phone" : 330158808791
@@ -981,7 +922,7 @@
         "id" : 23,
         "ranking" : 0,
         "name" : "MINES ParisTech",
-        "category" : "engineering school",
+        "category" : "inge",
         "intramuros" : 1,
         "coordinates" : {
             "longitude": 48.84578973460827,
@@ -1004,14 +945,11 @@
             "since" : 1783,
             "numberOfStudents" : -1,
             "numberOfForeigners" : -1,
-            "history" : "The École nationale supérieure des mines de Paris, also known under the names of the École des mines de Paris or simply “les Mines”, and more recently of MINES ParisTech, is one of the 205 French engineering schools accredited as of September 1 2019 to deliver an engineering degree. It is part of PSL University as a component establishment. It is historically the first French School of Mines.",
+            "history" : "The École nationale supérieure des mines de Paris, also known under the names of the École des mines de Paris or simply “les Mines”, and more recently of MINES ParisTech, is one of the 205 French engineering schools accredited as of September 1 2019 to deliver an engineering degree. It is part of PSL University as a component establishment.It is historically the first French School of Mines.",
             "majors" :
             [
-                "Energy",
-                "Innovation management",
-				"Clean and Renewable Energy",
-				"Economic and social sciences - Institutions, Organizations, Economy and Society",
-				"Materials Science and Engineering"
+                "computer science",
+                "philosophy"
             ],
             "mailAdress" : "contact@mines-paristech.fr",
             "phone" : 33140519000

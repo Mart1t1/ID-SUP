@@ -1,6 +1,6 @@
-//import 'dart:html';
 
 import 'package:flutter/material.dart';
+import 'package:idsup/main.dart';
 import '../../Models/schools.dart';
 import '../../Models/Modeldata.dart';
 
@@ -8,11 +8,12 @@ import 'schoolRow.dart';
 
 class schoolList extends StatefulWidget {
   final List<Schools> schools;
+  List<bool> selected;
 
-  const schoolList({Key key, this.schools}) : super(key: key);
+  schoolList({Key key, this.schools, this.selected}) : super(key: key);
 
   @override
-  _schoolList createState() => _schoolList(schools: schools);
+  _schoolList createState() => _schoolList(schools: schools, selected: selected);
 }
 
 class _schoolList extends State<schoolList> {
@@ -23,25 +24,32 @@ class _schoolList extends State<schoolList> {
 
   List<String> majors;
   List<bool> selected;
-  _schoolList({Key key, this.schools}); //: super(key: key);
+  _schoolList({Key key, this.schools, this.selected}); //: super(key: key);
 
   @override
   //@mustCallSuper
   initState() {
     super.initState();
     majors = getMajors(schools);
-    selected = List(majors.length);
-    for (int i = 0; i < selected.length; i++) {
-      selected[i] = true;
+    
     }
-  }
+  
 
   Widget build(BuildContext context) {
-    return /*Material(
-      child: */SingleChildScrollView(
+    return SingleChildScrollView(
                 scrollDirection: Axis.vertical,
                 child: Column(children: <Widget>[
-                  selection(),
+                  Card(
+                    child: 
+                    ListTile(
+                    title: Text("Filters"),
+                    onTap: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => selection(majors: majors,selected: selected,selectedFlag: selectedFlag,)
+                      )
+                      );
+                    } )
+                    )
+                    ,
                   ListView.builder(
                     physics: const NeverScrollableScrollPhysics(),
                     shrinkWrap: true,
@@ -58,9 +66,43 @@ class _schoolList extends State<schoolList> {
     );
   }
 
-  Widget selection() {
-    
-    return ListView.builder(
+  
+
+  
+}
+
+class selection extends StatefulWidget
+{
+  List<String> majors;
+  List<bool> selected;
+  Map<int, bool> selectedFlag = {};
+
+  selection({Key key, this.majors, this.selected, this.selectedFlag}) : super(key: key);
+
+  _selection createState() => _selection(majors: majors, selected: selected, selectedFlag: selectedFlag);
+}
+
+class _selection extends State<selection>
+{
+  List<String> majors;
+  List<bool> selected;
+  Map<int, bool> selectedFlag = {};
+
+  _selection({Key key, this.majors, this.selected, this.selectedFlag});
+  
+  @override
+
+Widget build(BuildContext context) {
+
+    return 
+    Scaffold
+    (
+      appBar: AppBar(title: Text("Filters"),
+      leading: IconButton(icon: Icon(Icons.arrow_back), 
+      onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage(selected: selected))),)
+      ),
+
+      body: ListView.builder(
       physics: const NeverScrollableScrollPhysics(),
       shrinkWrap: true,
       itemCount: majors.length,
@@ -75,17 +117,15 @@ class _schoolList extends State<schoolList> {
           leading: _buildSelectIcon(index),
         ));
       },
+    )
     );
   }
-
-  Widget _buildSelectIcon(int index) {
-    if (!isSelectionMode) {
+Widget _buildSelectIcon(int index) {
       return Icon(
         selected[index] ? Icons.check_box : Icons.check_box_outline_blank,
         color: Theme.of(context).primaryColor,
         size: 50,
       );
-    }
     return Container(
       width: 0,
       height: 0,
@@ -93,11 +133,9 @@ class _schoolList extends State<schoolList> {
   }
 
   void onTap(bool isSelected, int index) {
-    if (!isSelectionMode) {
       setState(() {
         selected[index] = !selected[index];
-        isSelectionMode = selectedFlag.containsValue(true);
+        //isSelectionMode = selectedFlag.containsValue(true);
       });
-    }
   }
 }

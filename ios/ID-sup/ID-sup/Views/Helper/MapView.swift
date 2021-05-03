@@ -9,28 +9,46 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
-    var latitude: Double
-    var longitude: Double
     
-    @State private var region = MKCoordinateRegion()
+    //let longitude: Double
+    //let latitude: Double
+    
+    @State var region: MKCoordinateRegion// = setRegion(longitude: 30, latitude: 30)
+        
+    
+    //var self.coordinates = coordinates
+    
+    //init(longitude: Double, latitude: Double) {
+//        self.longitude = longitude
+//        self.latitude = latitude
+//        //self.region
+//
+//        //region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 0, longitude: 0), span: MKCoordinateSpan(latitudeDelta: 100, longitudeDelta: 100))
+//
+//        region = setRegion(longitude: longitude, latitude: latitude)
+//    }
+
+    
+    
+
+    
+    //@Binding private var region: MKCoordinateRegion
 
     var body: some View {
-        Map(coordinateRegion: $region)
-            .onAppear {
-                setRegion(CLLocationCoordinate2D(latitude: latitude, longitude: longitude))
-            }
-    }
 
-    private func setRegion(_ coordinate: CLLocationCoordinate2D) {
-        region = MKCoordinateRegion(
-            center: coordinate,
-            span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
+        Map(coordinateRegion:$region, showsUserLocation: false).onAppear(
         )
+            //.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
+    
+    
+
 }
+
+
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(latitude:2.169989080911633 , longitude: 48.755473059554596)
+        MapView(region: setRegion(longitude: -116, latitude: +50))
     }
 }

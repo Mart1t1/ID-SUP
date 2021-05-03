@@ -44,8 +44,8 @@ List<int> sortByRanking (List <Schools> schools)
 
 List <String> selMajors(List <String> majors, List <bool> selected)
 {
-  List <String> sel = List();
-  for(int i = 0 ; i < selected.length ; i++)
+  List <String> sel = [];
+  for(int i = 0 ; i < majors.length ; i++)
   {
     if(selected[i])
       sel.add(majors[i]);

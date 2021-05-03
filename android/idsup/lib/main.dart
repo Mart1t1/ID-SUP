@@ -18,34 +18,52 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         // Hide the debug banner
         title: 'ID-SUP',
-        home: HomePage(),
+        home: HomePage(selected: null,),
     );
   }
 }
 class HomePage extends StatefulWidget {
+  List<bool> selected;
+
+  HomePage({Key key, this.selected});
   @override
-  _HomePageState createState() => _HomePageState();
+  _HomePageState createState() => _HomePageState(selected: selected);
 
 }
 class _HomePageState extends State<HomePage> {
-  List schools = [];
+  List schools =[];
+  List<bool> selected;
+
+  _HomePageState({Key key, this.selected});
+
+
 
   // Fetch content from the json file
   Future<void> getSchools() async {
     List <Schools> school = await readJson();
     setState(() {
       schools = school;
-    });
+      
+    }
+    );
   }
 
 
   void initState()
   {
     getSchools();
+
     super.initState();
+
   }
 
-
+  List <bool> initsel(List <Schools> schools)
+  {
+    List <bool> selected = [];
+      for(int i = 0 ; i < getMajors(schools).length; i++)
+        selected.add(false);
+    return selected;
+  }
 
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -55,7 +73,7 @@ class _HomePageState extends State<HomePage> {
       Scaffold(
         appBar: AppBar(title: const Text('ID SUP'),),
         body:   
-          (schools.length > 0 ? schoolList(schools: schools) : Container(width: 0.0, height: 0.0))
+          (schools.length > 0 ? schoolList(schools: schools, selected: (selected == null ? initsel(schools) : selected)) : Container(width: 0.0, height: 0.0))
       )
     );
   }

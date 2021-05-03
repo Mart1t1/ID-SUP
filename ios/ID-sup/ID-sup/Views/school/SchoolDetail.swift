@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct SchoolDetail: View {
     
@@ -14,8 +15,8 @@ struct SchoolDetail: View {
     var body: some View {
         ScrollView{
             
-            MapView(
-                latitude: school.coordinates.latitude, longitude: school.coordinates.longitude).ignoresSafeArea(edges: .top).frame(height: 300)
+            //MapView(region:
+            //setRegion(longitude: school.coordinates.longitude, latitude: school.coordinates.latitude)).ignoresSafeArea(edges: .top).frame(height: 300)
             CircleImage(image: school.image).offset(y: -130).padding(.bottom, -130)
             VStack(alignment: .leading) {
                 HStack{

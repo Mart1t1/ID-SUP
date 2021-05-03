@@ -30,10 +30,10 @@ struct SchoolList: View {
     
     let schools = ModelData().schools
     
-    @State var majors = listMajors(schoolList: ModelData().schools)
+    @State var majors = listMajors(schoolList: ModelData().schools).sorted()
 
     
-    @State var selMajors = listMajors(schoolList: ModelData().schools)
+    @State var selMajors = [""]//listMajors(schoolList: ModelData().schools)
     
 
     
@@ -42,18 +42,24 @@ struct SchoolList: View {
         NavigationView {
             
             List{
+                
+                NavigationLink(
+                    destination: Filters(majors: majors, selMajors: $selMajors),
+                    label: {
+                        Text("Filters")
+                    })
             
             
-                ForEach(self.majors, id: \.self) { item in
-                    MultipleSelectionRow(title: item, isSelected: self.selMajors.contains(item)) {
-                           if self.selMajors.contains(item) {
-                               self.selMajors.removeAll(where: { $0 == item })
-                           }
-                           else {
-                               self.selMajors.append(item)
-                           }
-                       }
-                   }
+//                ForEach(self.majors, id: \.self) { item in
+//                    MultipleSelectionRow(title: item, isSelected: self.selMajors.contains(item)) {
+//                           if self.selMajors.contains(item) {
+//                               self.selMajors.removeAll(where: { $0 == item })
+//                           }
+//                           else {
+//                               self.selMajors.append(item)
+//                           }
+//                       }
+//                   }
                 
             ForEach(ModelData().schools, id: \.id)
             {

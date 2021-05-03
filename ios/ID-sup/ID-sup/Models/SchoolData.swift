@@ -8,6 +8,7 @@
 import Foundation
 import Combine
 import SwiftUI
+import MapKit
 
 final class ModelData: ObservableObject {
     @Published var schools: [School] = load("schoolData.json")
@@ -72,4 +73,15 @@ func randomSchool () -> some View
     let randomInt = Int.random(in: 0..<schools.count)
     
     return SchoolRow(school: schools[randomInt])
+}
+
+
+func setRegion(longitude: Double, latitude: Double) -> MKCoordinateRegion
+{
+    
+    let region = MKCoordinateRegion(
+            center: CLLocationCoordinate2D(latitude: latitude, longitude: longitude),
+            span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
+        )
+    return region
 }
