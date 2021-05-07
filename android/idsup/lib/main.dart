@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
   {
     List <bool> selected = [];
       for(int i = 0 ; i < getMajors(schools).length; i++)
-        selected.add(false);
+        selected.add(true);
     return selected;
   }
 

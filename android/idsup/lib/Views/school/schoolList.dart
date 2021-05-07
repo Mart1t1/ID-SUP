@@ -62,7 +62,8 @@ class _schoolList extends State<schoolList> {
                     },
                   )
                 ]
-              )
+              ),
+        
     );
   }
 
@@ -95,6 +96,8 @@ class _selection extends State<selection>
 Widget build(BuildContext context) {
 
     return 
+    WillPopScope(
+      child: 
     Scaffold
     (
       appBar: AppBar(title: Text("Filters"),
@@ -103,7 +106,7 @@ Widget build(BuildContext context) {
       ),
 
       body: ListView.builder(
-      physics: const NeverScrollableScrollPhysics(),
+      //physics: const NeverScrollableScrollPhysics(),
       shrinkWrap: true,
       itemCount: majors.length,
       itemBuilder: (builder, index) {
@@ -117,7 +120,13 @@ Widget build(BuildContext context) {
           leading: _buildSelectIcon(index),
         ));
       },
-    )
+    ),
+    ),
+    onWillPop: () async
+    {
+     Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage(selected: selected)));
+     return Future.value(false);
+    }
     );
   }
 Widget _buildSelectIcon(int index) {

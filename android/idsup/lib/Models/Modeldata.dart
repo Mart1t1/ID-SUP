@@ -83,6 +83,8 @@ List <String> getMajors(List <Schools> schools)
     }
   }
 
+  majors.sort();
+
   return majors;
 
 }
