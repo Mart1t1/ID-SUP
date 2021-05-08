@@ -15,8 +15,8 @@ struct SchoolDetail: View {
     var body: some View {
         ScrollView{
             
-            //MapView(region:
-            //setRegion(longitude: school.coordinates.longitude, latitude: school.coordinates.latitude)).ignoresSafeArea(edges: .top).frame(height: 300)
+            MapView(coordinate: school.locationCoordinate).ignoresSafeArea(edges: .top)
+                .frame(height: 300)
             CircleImage(image: school.image).offset(y: -130).padding(.bottom, -130)
             VStack(alignment: .leading) {
                 HStack{
@@ -88,7 +88,7 @@ struct SchoolDetail: View {
                 
                 Divider()
                 Text("About \(school.name)").font(.title2)
-                Text(school.resume.history)
+                    Text(school.resume.history).fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/).lineLimit(nil)
 
                 Divider()
                     

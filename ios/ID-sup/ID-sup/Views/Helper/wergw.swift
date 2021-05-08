@@ -1,14 +1,14 @@
 //
-//  Mapview.swift
+//  wergw.swift
 //  ID-sup
 //
-//  Created by Martin Lacaille on 03/03/2021.
+//  Created by Martin Lacaille on 08/05/2021.
 //
 
 import SwiftUI
 import MapKit
 
-struct MapView: View {
+struct MapView2: View {
     var coordinate: CLLocationCoordinate2D
     @State private var region = MKCoordinateRegion()
     
@@ -23,16 +23,15 @@ struct MapView: View {
     private func setRegion(_ coordinate: CLLocationCoordinate2D) {
         region = MKCoordinateRegion(
             center: coordinate,
-            span: MKCoordinateSpan(latitudeDelta: 0.08, longitudeDelta: 0.08)
+            span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
             
         )
         
     }
 }
 
-struct MapView_Previews: PreviewProvider {
+struct MapView2_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(coordinate: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868))
+        MapView2(coordinate: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868))
     }
 }
- 

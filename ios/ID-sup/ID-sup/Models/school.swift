@@ -8,6 +8,7 @@
 
 import Foundation
 import SwiftUI
+import MapKit
 
 struct School: Hashable, Codable, Identifiable
 {
@@ -19,7 +20,13 @@ struct School: Hashable, Codable, Identifiable
 
 
 
-    var coordinates : coordinates
+    private var coordinates : coordinates
+    
+    var locationCoordinate: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(
+            latitude: self.coordinates.longitude,
+            longitude: self.coordinates.latitude)
+    }
 
 
     var womanprop : Int

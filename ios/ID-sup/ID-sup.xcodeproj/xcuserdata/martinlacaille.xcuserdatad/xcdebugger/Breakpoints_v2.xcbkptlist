@@ -23,24 +23,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "497A3066-CF36-4D43-92F3-FD8657127308"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ID-sup/Views/Helper/MapView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C782C800-43F7-48DF-8FDD-D9C964D941BE"
-            shouldBeEnabled = "Yes"
+            uuid = "B186FD11-F095-40E7-8D72-985846B4B463"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ID-sup/Views/school/SchoolDetail.swift"
@@ -48,24 +32,56 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
             endingLineNumber = "18"
-            landmarkName = "body"
-            landmarkType = "24">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "77E7EBA2-BD85-4A13-A170-CC1C59931BA8"
-            shouldBeEnabled = "Yes"
+            uuid = "E68DFE89-A0FE-420C-B77F-EE781E77642F"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ID-sup/Views/school/SchoolDetail.swift"
+            filePath = "ID-sup/Views/Helper/MapView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E68DFE89-A0FE-420C-B77F-EE781E77642F - 12ba082aaa32f216"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ID_sup.MapView.body.getter : some"
+                  moduleName = "ID-sup"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinlacaille/Documents/ID-SUP/ios/ID-sup/ID-sup/Views/Helper/MapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "837">
+               </Location>
+               <Location
+                  uuid = "E68DFE89-A0FE-420C-B77F-EE781E77642F - 535602148f40be47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in ID_sup.MapView.body.getter : some"
+                  moduleName = "ID-sup"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinlacaille/Documents/ID-SUP/ios/ID-sup/ID-sup/Views/Helper/MapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
