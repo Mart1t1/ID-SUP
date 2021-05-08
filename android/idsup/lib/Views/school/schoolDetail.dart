@@ -125,7 +125,7 @@ class schoolDetail extends StatelessWidget {
           height: 250.0,
           child: ClipRRect(
             borderRadius: const BorderRadius.all(const Radius.circular(120.0)),
-            child: Image.asset('assets/pics/${school.imagepath}.jpeg'),
+            child: Image.asset('assets/pics/${school.imagepath}.png'),
           ),
         ),
       ),

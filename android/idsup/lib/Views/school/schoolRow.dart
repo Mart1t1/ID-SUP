@@ -14,7 +14,7 @@ class schoolRow extends StatelessWidget {
           (
 
           title: Text(school.name),
-          leading: Image.asset('assets/pics/${school.imagepath}.jpeg', width: 50.0),
+          leading: Image.asset('assets/pics/${school.imagepath}.png', width: 50.0),
           onTap: ()
           {
             Navigator.push(context,

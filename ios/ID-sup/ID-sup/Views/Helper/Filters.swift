@@ -17,12 +17,12 @@ struct Filters: View {
         NavigationView{
         List{
             VStack{
-                Text("Select all majors (" + String(majors.count) + ")")
+                Text("Select all majors (" + String(majors.count) + ")").font(.headline).fontWeight(.black)
             }.onTapGesture{
                 selMajors = majors
             }
             VStack{
-                Text("clear filters")
+                Text("clear filters").font(.headline).fontWeight(.black)
             }.onTapGesture {
                 selMajors = []
             }
