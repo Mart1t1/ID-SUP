@@ -33,7 +33,7 @@ struct SchoolList: View {
     @State var majors = listMajors(schoolList: ModelData().schools).sorted()
 
     
-    @State var selMajors = [""]//listMajors(schoolList: ModelData().schools)
+    @State var selMajors = listMajors(schoolList: ModelData().schools)
     
 
     
@@ -61,7 +61,7 @@ struct SchoolList: View {
 //                       }
 //                   }
                 
-            ForEach(ModelData().schools, id: \.id)
+            ForEach(ModelData().schools.sorted(by: {$0.name < $1.name}), id: \.id)
             {
                 
                 school in

@@ -16,6 +16,16 @@ struct Filters: View {
     var body: some View {
         NavigationView{
         List{
+            VStack{
+                Text("Select all majors (" + String(majors.count) + ")")
+            }.onTapGesture{
+                selMajors = majors
+            }
+            VStack{
+                Text("clear filters")
+            }.onTapGesture {
+                selMajors = []
+            }
         
         ForEach(self.majors, id: \.self) { item in
             MultipleSelectionRow(title: item, isSelected: self.selMajors.contains(item)) {
